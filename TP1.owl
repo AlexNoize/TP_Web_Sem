@@ -1,0 +1,560 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_101d3869_d682_4751_b038_d15b93379c1e -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_101d3869_d682_4751_b038_d15b93379c1e">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_67afca79_0e9f_4fe7_b0fe_c4ae1095cdf7"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_a1ca65f1_0100_41f6_92c1_2151383ee049"/>
+        <rdfs:label xml:lang="fr">a_pour_date</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_1ca62864_373d_42d9_8861_9775faf7d4b4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_1ca62864_373d_42d9_8861_9775faf7d4b4">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_a1ca65f1_0100_41f6_92c1_2151383ee049"/>
+        <rdfs:label xml:lang="fr">débute</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_46ca1558_2c6c_4064_84d1_a2b0029e5c43 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_46ca1558_2c6c_4064_84d1_a2b0029e5c43">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_15fbdd8c_92f2_428e_9724_d0ab186546e4"/>
+        <rdfs:label xml:lang="fr">est_caractérisé_par</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_56eeeabc_8055_4ef3_8804_f25bd611a97c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_56eeeabc_8055_4ef3_8804_f25bd611a97c">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_67afca79_0e9f_4fe7_b0fe_c4ae1095cdf7"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_15fbdd8c_92f2_428e_9724_d0ab186546e4"/>
+        <rdfs:label xml:lang="fr">mesure</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_5c96186f_5d33_4018_b1ca_45d3c14779fa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_5c96186f_5d33_4018_b1ca_45d3c14779fa">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_fd8f9869_f526_4be8_b9c6_16c92478b786"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_8df92e49_4caf_4350_99b7_ab97e98938de"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_8e6b9320_d7ad_4d9b_8d04_766bd2eb6dc9"/>
+        <rdfs:label xml:lang="fr">a_pour_capitale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_64119d24_b709_4539_a865_2372ea2a2976 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_64119d24_b709_4539_a865_2372ea2a2976">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_67afca79_0e9f_4fe7_b0fe_c4ae1095cdf7"/>
+        <rdfs:label xml:lang="fr">a_pour_symptôme</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_8375af14_c9c4_4d41_84a7_67eaa1cb53f7 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_8375af14_c9c4_4d41_84a7_67eaa1cb53f7">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_67afca79_0e9f_4fe7_b0fe_c4ae1095cdf7"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_158e8ce8_19d8_4742_91f2_5a5fb854cc0f"/>
+        <rdfs:label xml:lang="fr">a_pour_localisation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_bbd0d520_6e17_444d_ad5a_da44d0546b56 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_bbd0d520_6e17_444d_ad5a_da44d0546b56">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_fd8f9869_f526_4be8_b9c6_16c92478b786"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_158e8ce8_19d8_4742_91f2_5a5fb854cc0f"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_158e8ce8_19d8_4742_91f2_5a5fb854cc0f"/>
+        <rdfs:label xml:lang="fr">est_inclus_dans</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_d9a5145a_0ac6_4cc0_b6b6_082191faf162 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_d9a5145a_0ac6_4cc0_b6b6_082191faf162">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_a1ca65f1_0100_41f6_92c1_2151383ee049"/>
+        <rdfs:label xml:lang="fr">finit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_fd8f9869_f526_4be8_b9c6_16c92478b786 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_fd8f9869_f526_4be8_b9c6_16c92478b786">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_158e8ce8_19d8_4742_91f2_5a5fb854cc0f"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_158e8ce8_19d8_4742_91f2_5a5fb854cc0f"/>
+        <rdfs:label xml:lang="fr">inclus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLDataProperty_7bf443a2_1e83_4c30_9057_174eb3cd4ba6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLDataProperty_7bf443a2_1e83_4c30_9057_174eb3cd4ba6">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_a1ca65f1_0100_41f6_92c1_2151383ee049"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label xml:lang="fr">timestamp</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLDataProperty_dd907a02_9163_496d_97e8_76e46467f2da -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLDataProperty_dd907a02_9163_496d_97e8_76e46467f2da">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="fr">a_une_durée</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLDataProperty_fe29832f_622d_4743_8656_f9181be556d6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLDataProperty_fe29832f_622d_4743_8656_f9181be556d6">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_67afca79_0e9f_4fe7_b0fe_c4ae1095cdf7"/>
+        <rdfs:label xml:lang="fr">a_une_valeur</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_0e29fe9b_462c_4475_bf24_683cd50cc5e0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_0e29fe9b_462c_4475_bf24_683cd50cc5e0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_158e8ce8_19d8_4742_91f2_5a5fb854cc0f"/>
+        <rdfs:label xml:lang="fr">Continent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_158e8ce8_19d8_4742_91f2_5a5fb854cc0f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_158e8ce8_19d8_4742_91f2_5a5fb854cc0f">
+        <rdfs:label xml:lang="fr">Lieu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_15fbdd8c_92f2_428e_9724_d0ab186546e4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_15fbdd8c_92f2_428e_9724_d0ab186546e4">
+        <rdfs:label xml:lang="fr">Paramètre_mesurable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_19cc73c8_7fef_4e4f_af6b_b88a66dbd8ba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_19cc73c8_7fef_4e4f_af6b_b88a66dbd8ba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_b62dcd5e_2a69_435f_82a8_f276081832b1"/>
+        <rdfs:label xml:lang="fr">Brouillard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_29741b19_6189_43b5_9743_a38826a4ac21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_29741b19_6189_43b5_9743_a38826a4ac21">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_6ca2a6db_0f55_4173_ad8c_db9da1101276"/>
+        <rdfs:label xml:lang="fr">Ensoleillement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_341baf6e_e3e3_43d7_9a53_aa64def618aa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_341baf6e_e3e3_43d7_9a53_aa64def618aa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLDataProperty_dd907a02_9163_496d_97e8_76e46467f2da"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_be96a55f_fc5d_4116_87a8_158d1eeb3ecb"/>
+        <rdfs:label xml:lang="fr">Phénomène_court</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_571ecf3b_287f_419f_9ff0_04005979f233 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_571ecf3b_287f_419f_9ff0_04005979f233">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_64119d24_b709_4539_a865_2372ea2a2976"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_67afca79_0e9f_4fe7_b0fe_c4ae1095cdf7"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_56eeeabc_8055_4ef3_8804_f25bd611a97c"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_c7ff7409_fa5e_430c_ae72_b81fc035664a"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLDataProperty_fe29832f_622d_4743_8656_f9181be556d6"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minExclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_b62dcd5e_2a69_435f_82a8_f276081832b1"/>
+        <rdfs:label xml:lang="fr">Pluie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_67afca79_0e9f_4fe7_b0fe_c4ae1095cdf7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_67afca79_0e9f_4fe7_b0fe_c4ae1095cdf7">
+        <rdfs:label xml:lang="fr">Observation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_6ca2a6db_0f55_4173_ad8c_db9da1101276 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_6ca2a6db_0f55_4173_ad8c_db9da1101276">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136"/>
+        <rdfs:label xml:lang="fr">Beau_temps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_8df92e49_4caf_4350_99b7_ab97e98938de -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_8df92e49_4caf_4350_99b7_ab97e98938de">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLObjectProperty_5c96186f_5d33_4018_b1ca_45d3c14779fa"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_8e6b9320_d7ad_4d9b_8d04_766bd2eb6dc9"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_158e8ce8_19d8_4742_91f2_5a5fb854cc0f"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_8e6b9320_d7ad_4d9b_8d04_766bd2eb6dc9"/>
+        <rdfs:label xml:lang="fr">Pays</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_8e6b9320_d7ad_4d9b_8d04_766bd2eb6dc9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_8e6b9320_d7ad_4d9b_8d04_766bd2eb6dc9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_158e8ce8_19d8_4742_91f2_5a5fb854cc0f"/>
+        <rdfs:label xml:lang="fr">Ville</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_a1ca65f1_0100_41f6_92c1_2151383ee049 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_a1ca65f1_0100_41f6_92c1_2151383ee049">
+        <rdfs:label xml:lang="fr">Instant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_b62dcd5e_2a69_435f_82a8_f276081832b1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_b62dcd5e_2a69_435f_82a8_f276081832b1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136"/>
+        <rdfs:label xml:lang="fr">Mauvais_temps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_be96a55f_fc5d_4116_87a8_158d1eeb3ecb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_be96a55f_fc5d_4116_87a8_158d1eeb3ecb">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLDataProperty_dd907a02_9163_496d_97e8_76e46467f2da"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136"/>
+        <rdfs:label>Phénomène_long</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_f1173128_82d4_458b_8685_a566ec9fc136">
+        <rdfs:label xml:lang="fr">Phénomène</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_000c17e9_1578_4372_ac27_ea2b36b144ab -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_000c17e9_1578_4372_ac27_ea2b36b144ab">
+        <rdf:type rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_8df92e49_4caf_4350_99b7_ab97e98938de"/>
+        <rdfs:label xml:lang="fr">Singapour</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_11995186_5b43_47ef_9ed1_b2b0bc29724c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_11995186_5b43_47ef_9ed1_b2b0bc29724c">
+        <OWLObjectProperty_64119d24_b709_4539_a865_2372ea2a2976 rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_51a5e05e_326e_4973_82e1_9bd2e02c6367"/>
+        <rdfs:label xml:lang="fr">A1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_1d54490d_533b_49d8_8b5b_266a131fa467 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_1d54490d_533b_49d8_8b5b_266a131fa467">
+        <rdf:type rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_8e6b9320_d7ad_4d9b_8d04_766bd2eb6dc9"/>
+        <rdfs:label xml:lang="fr">Singapour</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_1e1dec48_2357_4837_9f77_c90fe757b5e2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_1e1dec48_2357_4837_9f77_c90fe757b5e2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_8e6b9320_d7ad_4d9b_8d04_766bd2eb6dc9"/>
+        <OWLObjectProperty_bbd0d520_6e17_444d_ad5a_da44d0546b56 rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_7723f34a_1bde_47bb_b220_443826471edf"/>
+        <rdfs:label xml:lang="fr">Toulouse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_20cb69c9_73eb_46bb_9fad_b4706bcbadf1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_20cb69c9_73eb_46bb_9fad_b4706bcbadf1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_15fbdd8c_92f2_428e_9724_d0ab186546e4"/>
+        <rdfs:label xml:lang="fr">hygrométrie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_464cc5d8_5f25_4627_8fa5_dd767a7ffec5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_464cc5d8_5f25_4627_8fa5_dd767a7ffec5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_15fbdd8c_92f2_428e_9724_d0ab186546e4"/>
+        <rdfs:label xml:lang="en">temperature</rdfs:label>
+        <rdfs:label xml:lang="fr">température</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_51a5e05e_326e_4973_82e1_9bd2e02c6367 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_51a5e05e_326e_4973_82e1_9bd2e02c6367">
+        <rdf:type rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_67afca79_0e9f_4fe7_b0fe_c4ae1095cdf7"/>
+        <OWLObjectProperty_101d3869_d682_4751_b038_d15b93379c1e rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_84fbf6db_f685_4c0f_97c7_abd8c97116c6"/>
+        <OWLObjectProperty_8375af14_c9c4_4d41_84a7_67eaa1cb53f7 rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_1e1dec48_2357_4837_9f77_c90fe757b5e2"/>
+        <OWLDataProperty_fe29832f_622d_4743_8656_f9181be556d6 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</OWLDataProperty_fe29832f_622d_4743_8656_f9181be556d6>
+        <rdfs:label xml:lang="fr">P1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_76856bae_d6f6_42f1_8bb8_729792daac4e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_76856bae_d6f6_42f1_8bb8_729792daac4e">
+        <rdf:type rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_15fbdd8c_92f2_428e_9724_d0ab186546e4"/>
+        <rdfs:label xml:lang="fr">vitesse_du_vent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_7723f34a_1bde_47bb_b220_443826471edf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_7723f34a_1bde_47bb_b220_443826471edf">
+        <OWLObjectProperty_5c96186f_5d33_4018_b1ca_45d3c14779fa rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_b973fd25_adda_4118_9239_a0cb99692e9e"/>
+        <OWLObjectProperty_5c96186f_5d33_4018_b1ca_45d3c14779fa rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_bcae0f8c_75f2_4127_9701_58af34ff6a3c"/>
+        <OWLObjectProperty_bbd0d520_6e17_444d_ad5a_da44d0546b56 rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_b913084d_d25c_47a4_94be_c1122ca551aa"/>
+        <rdfs:label xml:lang="fr">France</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_84fbf6db_f685_4c0f_97c7_abd8c97116c6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_84fbf6db_f685_4c0f_97c7_abd8c97116c6">
+        <OWLDataProperty_7bf443a2_1e83_4c30_9057_174eb3cd4ba6 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2015-11-10T10:00:00Z</OWLDataProperty_7bf443a2_1e83_4c30_9057_174eb3cd4ba6>
+        <rdfs:label xml:lang="fr">I1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_b913084d_d25c_47a4_94be_c1122ca551aa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_b913084d_d25c_47a4_94be_c1122ca551aa">
+        <rdfs:label xml:lang="fr">Europe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_b973fd25_adda_4118_9239_a0cb99692e9e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_b973fd25_adda_4118_9239_a0cb99692e9e">
+        <rdfs:label xml:lang="fr">Paris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_bcae0f8c_75f2_4127_9701_58af34ff6a3c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_bcae0f8c_75f2_4127_9701_58af34ff6a3c">
+        <rdfs:label xml:lang="fr">La_Ville_Lumière</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_bef65ba5_61aa_4f33_be94_1bea03c57e14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_bef65ba5_61aa_4f33_be94_1bea03c57e14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_15fbdd8c_92f2_428e_9724_d0ab186546e4"/>
+        <rdfs:label xml:lang="fr">force_du_vent</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_bef65ba5_61aa_4f33_be94_1bea03c57e14"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="fr">force_du_vent</owl:annotatedTarget>
+        <rdfs:label>vitesse_du_vent</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_c7ff7409_fa5e_430c_ae72_b81fc035664a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_c7ff7409_fa5e_430c_ae72_b81fc035664a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_15fbdd8c_92f2_428e_9724_d0ab186546e4"/>
+        <rdfs:label xml:lang="fr">pluviométrie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_d0faed29_d21a_4230_8306_79c115babafd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLNamedIndividual_d0faed29_d21a_4230_8306_79c115babafd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/noize/ontologies/2018/10/untitled-ontology-2#OWLClass_15fbdd8c_92f2_428e_9724_d0ab186546e4"/>
+        <rdfs:label xml:lang="fr">pression_atmosphérique</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
