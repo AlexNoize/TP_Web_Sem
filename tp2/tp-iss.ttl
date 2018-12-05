@@ -1,0 +1,426 @@
+@prefix : <http://www.w3.org/2002/07/owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tp-iss: <http://homepages.laas.fr/nseydoux/ontologies/tp-iss#> .
+@base <http://homepages.laas.fr/nseydoux/ontologies/tp-iss> .
+
+<http://homepages.laas.fr/nseydoux/ontologies/tp-iss> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.oclc.org/NET/ssnx/ssn#observes
+ssn:observes rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLObjectProperty_0f63feb1_1b41_4716_92bb_1ef70da83f72
+tp-iss:OWLObjectProperty_0f63feb1_1b41_4716_92bb_1ef70da83f72 rdf:type owl:ObjectProperty ;
+                                                              rdfs:domain tp-iss:OWLClass_75255c9b_fdf8_4c41_9552_a599230329cc ;
+                                                              rdfs:range tp-iss:OWLClass_b7dc1540_f585_4aab_aeb8_59265536249e ;
+                                                              rdfs:label "a pour symptome"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLObjectProperty_214a72af_4335_4b8a_b251_edcce1785ea7
+tp-iss:OWLObjectProperty_214a72af_4335_4b8a_b251_edcce1785ea7 rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                                              owl:inverseOf tp-iss:OWLObjectProperty_4a511452_e141_4a7e_b156_cf152f19cd2d ;
+                                                              rdfs:domain tp-iss:OWLClass_c8a39393_1773_4418_971e_85efde7cf347 ,
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty tp-iss:OWLObjectProperty_214a72af_4335_4b8a_b251_edcce1785ea7 ;
+                                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                            owl:onClass tp-iss:OWLClass_cc9a247b_da2d_4b1c_90e4_8f9e9e5cac7e
+                                                                          ] ;
+                                                              rdfs:range tp-iss:OWLClass_cc9a247b_da2d_4b1c_90e4_8f9e9e5cac7e ;
+                                                              rdfs:label "a pour capitale"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLObjectProperty_3e84e8b7_9283_4582_b02d_3815a4cf3864
+tp-iss:OWLObjectProperty_3e84e8b7_9283_4582_b02d_3815a4cf3864 rdf:type owl:ObjectProperty ;
+                                                              rdfs:domain tp-iss:OWLClass_b7dc1540_f585_4aab_aeb8_59265536249e ;
+                                                              rdfs:range tp-iss:OWLClass_70366453_b04e_4693_9806_9bb04ff4593c ;
+                                                              rdfs:label "a pour date"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLObjectProperty_4a511452_e141_4a7e_b156_cf152f19cd2d
+tp-iss:OWLObjectProperty_4a511452_e141_4a7e_b156_cf152f19cd2d rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf tp-iss:OWLObjectProperty_6637af56_609a_4059_bf56_f2870d032dbc ;
+                                                              rdfs:label "est la capitale de"@fr .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLObjectProperty_57b19d61_bcdf_40fd_90c7_dd56beb7acb6
+tp-iss:OWLObjectProperty_57b19d61_bcdf_40fd_90c7_dd56beb7acb6 rdf:type owl:ObjectProperty ;
+                                                              rdfs:domain tp-iss:OWLClass_b7dc1540_f585_4aab_aeb8_59265536249e ;
+                                                              rdfs:range tp-iss:OWLClass_bf3863e3_9c85_4aef_9b6e_396eb5000083 ;
+                                                              rdfs:label "a pour localisation"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLObjectProperty_6637af56_609a_4059_bf56_f2870d032dbc
+tp-iss:OWLObjectProperty_6637af56_609a_4059_bf56_f2870d032dbc rdf:type owl:ObjectProperty ,
+                                                                       owl:TransitiveProperty ;
+                                                              rdfs:domain tp-iss:OWLClass_bf3863e3_9c85_4aef_9b6e_396eb5000083 ;
+                                                              rdfs:range tp-iss:OWLClass_bf3863e3_9c85_4aef_9b6e_396eb5000083 ;
+                                                              rdfs:label "est inclus dans"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLObjectProperty_6e59efc0_2d2e_4485_a5a2_2ea407080c48
+tp-iss:OWLObjectProperty_6e59efc0_2d2e_4485_a5a2_2ea407080c48 rdf:type owl:ObjectProperty ;
+                                                              rdfs:domain tp-iss:OWLClass_75255c9b_fdf8_4c41_9552_a599230329cc ;
+                                                              rdfs:range tp-iss:OWLClass_70366453_b04e_4693_9806_9bb04ff4593c ;
+                                                              rdfs:label "débute à"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLObjectProperty_cf7c18d0_5a3f_4173_897a_754d49d90f25
+tp-iss:OWLObjectProperty_cf7c18d0_5a3f_4173_897a_754d49d90f25 rdf:type owl:ObjectProperty ;
+                                                              rdfs:domain tp-iss:OWLClass_75255c9b_fdf8_4c41_9552_a599230329cc ;
+                                                              rdfs:range tp-iss:OWLClass_6d5bb482_3e1e_47a0_be94_995d4df0f35e ;
+                                                              rdfs:label "caractérisé par"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLObjectProperty_f0381af4_a882_4f64_8928_6089116baadc
+tp-iss:OWLObjectProperty_f0381af4_a882_4f64_8928_6089116baadc rdf:type owl:ObjectProperty ;
+                                                              rdfs:domain tp-iss:OWLClass_75255c9b_fdf8_4c41_9552_a599230329cc ;
+                                                              rdfs:range tp-iss:OWLClass_70366453_b04e_4693_9806_9bb04ff4593c ;
+                                                              rdfs:label "finit à"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLObjectProperty_f4ed4114_811e_4c3b_9fda_e5659bf2ec9c
+tp-iss:OWLObjectProperty_f4ed4114_811e_4c3b_9fda_e5659bf2ec9c rdf:type owl:ObjectProperty ;
+                                                              rdfs:domain tp-iss:OWLClass_b7dc1540_f585_4aab_aeb8_59265536249e ;
+                                                              rdfs:range tp-iss:OWLClass_6d5bb482_3e1e_47a0_be94_995d4df0f35e ;
+                                                              rdfs:label "mesure"@en .
+
+
+###  http://purl.oclc.org/NET/ssnx/ssn#attachedSystem
+ssn:attachedSystem rdf:type owl:ObjectProperty .
+
+
+###  http://purl.oclc.org/NET/ssnx/ssn#onPlatform
+ssn:onPlatform rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/2002/07/owl#OWLObjectProperty_c71b5265_ff81_4c91_b30d_a3e858340405
+owl:OWLObjectProperty_c71b5265_ff81_4c91_b30d_a3e858340405 rdf:type owl:ObjectProperty ;
+                                                           owl:propertyChainAxiom ( ssn:onPlatform
+                                                                                    owl:OWLObjectProperty_c71b5265_ff81_4c91_b30d_a3e858340405
+                                                                                  ) ,
+                                                                                  ( owl:OWLObjectProperty_c71b5265_ff81_4c91_b30d_a3e858340405
+                                                                                    tp-iss:OWLObjectProperty_6637af56_609a_4059_bf56_f2870d032dbc
+                                                                                  ) ;
+                                                           rdfs:label "se situe dans"@en .
+
+
+###  http://www.w3.org/2002/07/owl#OWLObjectProperty_fb806106_4ace_40ff_99be_b78033118b3c
+owl:OWLObjectProperty_fb806106_4ace_40ff_99be_b78033118b3c rdf:type owl:ObjectProperty ;
+                                                           rdfs:domain ssn:System ;
+                                                           rdfs:range ssn:System ;
+                                                           owl:propertyChainAxiom ( ssn:onPlatform
+                                                                                    ssn:attachedSystem
+                                                                                  ) ;
+                                                           rdfs:label "est compatible avec"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLDataProperty_1ba5bda8_e69b_4c0f_930c_ffc2fcf02f10
+tp-iss:OWLDataProperty_1ba5bda8_e69b_4c0f_930c_ffc2fcf02f10 rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain tp-iss:OWLClass_b7dc1540_f585_4aab_aeb8_59265536249e ;
+                                                            rdfs:range xsd:float ;
+                                                            rdfs:label "a pour valeur"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLDataProperty_8c1edaf8_176d_4e84_a40f_881f06ca36d5
+tp-iss:OWLDataProperty_8c1edaf8_176d_4e84_a40f_881f06ca36d5 rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain tp-iss:OWLClass_70366453_b04e_4693_9806_9bb04ff4593c ;
+                                                            rdfs:range xsd:dateTimeStamp ;
+                                                            rdfs:label "a pour timestamp"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#a_pour_durée
+tp-iss:a_pour_durée rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_1356bdaa_2770_4f7e_b281_2e7a014b3220
+tp-iss:OWLClass_1356bdaa_2770_4f7e_b281_2e7a014b3220 rdf:type owl:Class ;
+                                                     rdfs:subClassOf tp-iss:OWLClass_93368bc8_4bb5_4d60_acd1_fd650a97dea7 ;
+                                                     rdfs:label "Ensoleillement"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_3f9c9e2e_1534_4048_9f3e_3131d300ae08
+tp-iss:OWLClass_3f9c9e2e_1534_4048_9f3e_3131d300ae08 rdf:type owl:Class ;
+                                                     owl:equivalentClass [ owl:intersectionOf ( tp-iss:OWLClass_75255c9b_fdf8_4c41_9552_a599230329cc
+                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                  owl:onProperty tp-iss:OWLObjectProperty_0f63feb1_1b41_4716_92bb_1ef70da83f72 ;
+                                                                                                  owl:someValuesFrom [ owl:intersectionOf ( tp-iss:OWLClass_b7dc1540_f585_4aab_aeb8_59265536249e
+                                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                                              owl:onProperty tp-iss:OWLObjectProperty_f4ed4114_811e_4c3b_9fda_e5659bf2ec9c ;
+                                                                                                                                              owl:hasValue owl:OWLNamedIndividual_2a8dc066_4bd2_454c_a56b_11db9452e7dd
+                                                                                                                                            ]
+                                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                                              owl:onProperty tp-iss:OWLDataProperty_1ba5bda8_e69b_4c0f_930c_ffc2fcf02f10 ;
+                                                                                                                                              owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                                                                   owl:onDatatype xsd:float ;
+                                                                                                                                                                   owl:withRestrictions ( [ xsd:minExclusive "0.0"^^xsd:float
+                                                                                                                                                                                          ]
+                                                                                                                                                                                        )
+                                                                                                                                                                 ]
+                                                                                                                                            ]
+                                                                                                                                          ) ;
+                                                                                                                       rdf:type owl:Class
+                                                                                                                     ]
+                                                                                                ]
+                                                                                              ) ;
+                                                                           rdf:type owl:Class
+                                                                         ] ;
+                                                     rdfs:subClassOf tp-iss:OWLClass_453350aa_9d45_444a_a509_77b94bbc7bb2 ;
+                                                     rdfs:label "Pluie"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_453350aa_9d45_444a_a509_77b94bbc7bb2
+tp-iss:OWLClass_453350aa_9d45_444a_a509_77b94bbc7bb2 rdf:type owl:Class ;
+                                                     rdfs:subClassOf tp-iss:OWLClass_75255c9b_fdf8_4c41_9552_a599230329cc ;
+                                                     rdfs:label "Mauvais temps"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_60a7a81e_a726_4794_a7aa_7c366ca6ce44
+tp-iss:OWLClass_60a7a81e_a726_4794_a7aa_7c366ca6ce44 rdf:type owl:Class ;
+                                                     rdfs:subClassOf tp-iss:OWLClass_453350aa_9d45_444a_a509_77b94bbc7bb2 ;
+                                                     rdfs:label "Brouillard"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_6d5bb482_3e1e_47a0_be94_995d4df0f35e
+tp-iss:OWLClass_6d5bb482_3e1e_47a0_be94_995d4df0f35e rdf:type owl:Class ;
+                                                     rdfs:subClassOf ssn:Property ;
+                                                     rdfs:label "Paramètre mesurables"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_70366453_b04e_4693_9806_9bb04ff4593c
+tp-iss:OWLClass_70366453_b04e_4693_9806_9bb04ff4593c rdf:type owl:Class ;
+                                                     rdfs:label "Instant"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_75255c9b_fdf8_4c41_9552_a599230329cc
+tp-iss:OWLClass_75255c9b_fdf8_4c41_9552_a599230329cc rdf:type owl:Class ;
+                                                     rdfs:label "Phénomène"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_93368bc8_4bb5_4d60_acd1_fd650a97dea7
+tp-iss:OWLClass_93368bc8_4bb5_4d60_acd1_fd650a97dea7 rdf:type owl:Class ;
+                                                     rdfs:subClassOf tp-iss:OWLClass_75255c9b_fdf8_4c41_9552_a599230329cc ;
+                                                     rdfs:label "Beau temps"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_b7dc1540_f585_4aab_aeb8_59265536249e
+tp-iss:OWLClass_b7dc1540_f585_4aab_aeb8_59265536249e rdf:type owl:Class ;
+                                                     rdfs:label "Observation" ,
+                                                                "Observation météo"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_bf3863e3_9c85_4aef_9b6e_396eb5000083
+tp-iss:OWLClass_bf3863e3_9c85_4aef_9b6e_396eb5000083 rdf:type owl:Class ;
+                                                     rdfs:label "Lieu"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_c8a39393_1773_4418_971e_85efde7cf347
+tp-iss:OWLClass_c8a39393_1773_4418_971e_85efde7cf347 rdf:type owl:Class ;
+                                                     rdfs:subClassOf tp-iss:OWLClass_bf3863e3_9c85_4aef_9b6e_396eb5000083 ;
+                                                     owl:disjointWith tp-iss:OWLClass_cc9a247b_da2d_4b1c_90e4_8f9e9e5cac7e ;
+                                                     rdfs:label "Pays"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_cc9a247b_da2d_4b1c_90e4_8f9e9e5cac7e
+tp-iss:OWLClass_cc9a247b_da2d_4b1c_90e4_8f9e9e5cac7e rdf:type owl:Class ;
+                                                     rdfs:subClassOf tp-iss:OWLClass_bf3863e3_9c85_4aef_9b6e_396eb5000083 ;
+                                                     rdfs:label "Ville"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLClass_df27e975_e629_44bb_9479_a57bc2f0b95b
+tp-iss:OWLClass_df27e975_e629_44bb_9479_a57bc2f0b95b rdf:type owl:Class ;
+                                                     rdfs:subClassOf tp-iss:OWLClass_bf3863e3_9c85_4aef_9b6e_396eb5000083 ;
+                                                     rdfs:label "Continent"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#Phénomène_court
+tp-iss:Phénomène_court rdf:type owl:Class ;
+                       owl:equivalentClass [ owl:intersectionOf ( tp-iss:OWLClass_75255c9b_fdf8_4c41_9552_a599230329cc
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty tp-iss:a_pour_durée ;
+                                                                    owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                         owl:onDatatype xsd:int ;
+                                                                                         owl:withRestrictions ( [ xsd:maxInclusive "15"^^xsd:int
+                                                                                                                ]
+                                                                                                              )
+                                                                                       ]
+                                                                  ]
+                                                                ) ;
+                                             rdf:type owl:Class
+                                           ] ;
+                       rdfs:subClassOf tp-iss:OWLClass_75255c9b_fdf8_4c41_9552_a599230329cc .
+
+
+###  http://purl.oclc.org/NET/ssnx/ssn#Platform
+ssn:Platform rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty owl:OWLObjectProperty_c71b5265_ff81_4c91_b30d_a3e858340405 ;
+                               owl:someValuesFrom tp-iss:OWLClass_bf3863e3_9c85_4aef_9b6e_396eb5000083
+                             ] .
+
+
+###  http://purl.oclc.org/NET/ssnx/ssn#Property
+ssn:Property rdf:type owl:Class .
+
+
+###  http://purl.oclc.org/NET/ssnx/ssn#SensingDevice
+ssn:SensingDevice rdf:type owl:Class .
+
+
+###  http://purl.oclc.org/NET/ssnx/ssn#System
+ssn:System rdf:type owl:Class .
+
+
+###  http://www.w3.org/2002/07/owl#OWLClass_5978d744_0b81_42e3_be10_3d1eebb096ce
+owl:OWLClass_5978d744_0b81_42e3_be10_3d1eebb096ce rdf:type owl:Class ;
+                                                  rdfs:label "Paramètre observable"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_2b887a87_5d83_4d70_b7c9_6f8b1c3e54f0
+tp-iss:OWLNamedIndividual_2b887a87_5d83_4d70_b7c9_6f8b1c3e54f0 rdf:type owl:NamedIndividual ,
+                                                                        tp-iss:OWLClass_6d5bb482_3e1e_47a0_be94_995d4df0f35e ;
+                                                               rdfs:label "Température"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_2be00ec6_20f0_4ce1_a370_949a455cb0a1
+tp-iss:OWLNamedIndividual_2be00ec6_20f0_4ce1_a370_949a455cb0a1 rdf:type owl:NamedIndividual ,
+                                                                        tp-iss:OWLClass_b7dc1540_f585_4aab_aeb8_59265536249e ;
+                                                               tp-iss:OWLObjectProperty_3e84e8b7_9283_4582_b02d_3815a4cf3864 tp-iss:OWLNamedIndividual_4f731814_91f0_4d75_a5cf_4a0d3629a308 ;
+                                                               tp-iss:OWLObjectProperty_57b19d61_bcdf_40fd_90c7_dd56beb7acb6 tp-iss:OWLNamedIndividual_40c87ce2_4767_4cb0_9cd7_1dda03352a38 ;
+                                                               tp-iss:OWLObjectProperty_f4ed4114_811e_4c3b_9fda_e5659bf2ec9c owl:OWLNamedIndividual_2a8dc066_4bd2_454c_a56b_11db9452e7dd ;
+                                                               tp-iss:OWLDataProperty_1ba5bda8_e69b_4c0f_930c_ffc2fcf02f10 "3.0"^^xsd:float ;
+                                                               rdfs:label "P1"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_40c87ce2_4767_4cb0_9cd7_1dda03352a38
+tp-iss:OWLNamedIndividual_40c87ce2_4767_4cb0_9cd7_1dda03352a38 rdf:type owl:NamedIndividual ,
+                                                                        tp-iss:OWLClass_cc9a247b_da2d_4b1c_90e4_8f9e9e5cac7e ,
+                                                                        owl:Thing ;
+                                                               tp-iss:OWLObjectProperty_6637af56_609a_4059_bf56_f2870d032dbc tp-iss:OWLNamedIndividual_e2cea48d_7da1_41cf_9a6e_167bd3b64a8f ;
+                                                               rdfs:label "Toulouse"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_4ef6700d_d3ca_437e_96a6_5f531744c9fd
+tp-iss:OWLNamedIndividual_4ef6700d_d3ca_437e_96a6_5f531744c9fd rdf:type owl:NamedIndividual ,
+                                                                        tp-iss:OWLClass_6d5bb482_3e1e_47a0_be94_995d4df0f35e ;
+                                                               rdfs:label "Hygrométrie"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_4f731814_91f0_4d75_a5cf_4a0d3629a308
+tp-iss:OWLNamedIndividual_4f731814_91f0_4d75_a5cf_4a0d3629a308 rdf:type owl:NamedIndividual ,
+                                                                        tp-iss:OWLClass_70366453_b04e_4693_9806_9bb04ff4593c ;
+                                                               tp-iss:OWLDataProperty_8c1edaf8_176d_4e84_a40f_881f06ca36d5 "2015-10-11T13:20:00Z"^^xsd:dateTimeStamp ;
+                                                               rdfs:label "I1"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_779078ef_da9a_47ac_bb61_59a30ffffa85
+tp-iss:OWLNamedIndividual_779078ef_da9a_47ac_bb61_59a30ffffa85 rdf:type owl:NamedIndividual ,
+                                                                        tp-iss:OWLClass_c8a39393_1773_4418_971e_85efde7cf347 ;
+                                                               tp-iss:OWLObjectProperty_214a72af_4335_4b8a_b251_edcce1785ea7 tp-iss:OWLNamedIndividual_b95bbab6_16d9_4238_9ba6_b4c2874a3912 ,
+                                                                                                                             tp-iss:OWLNamedIndividual_e51e3974_f657_469e_b7a1_6ebaf4935b6a ;
+                                                               rdfs:label "France"@fr .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_b95bbab6_16d9_4238_9ba6_b4c2874a3912
+tp-iss:OWLNamedIndividual_b95bbab6_16d9_4238_9ba6_b4c2874a3912 rdf:type owl:NamedIndividual ,
+                                                                        tp-iss:OWLClass_cc9a247b_da2d_4b1c_90e4_8f9e9e5cac7e ;
+                                                               rdfs:label "Paris"@fr .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_c85bf788_ee5b_4da6_a867_08c79d7380e3
+tp-iss:OWLNamedIndividual_c85bf788_ee5b_4da6_a867_08c79d7380e3 rdf:type owl:NamedIndividual ,
+                                                                        tp-iss:OWLClass_6d5bb482_3e1e_47a0_be94_995d4df0f35e ;
+                                                               rdfs:label "Vitesse du vent"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_ddf74788_0035_4c06_bdc7_e519b04c7f99
+tp-iss:OWLNamedIndividual_ddf74788_0035_4c06_bdc7_e519b04c7f99 rdf:type owl:NamedIndividual ,
+                                                                        tp-iss:OWLClass_75255c9b_fdf8_4c41_9552_a599230329cc ;
+                                                               tp-iss:OWLObjectProperty_0f63feb1_1b41_4716_92bb_1ef70da83f72 tp-iss:OWLNamedIndividual_2be00ec6_20f0_4ce1_a370_949a455cb0a1 ;
+                                                               rdfs:label "A1"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_e2cea48d_7da1_41cf_9a6e_167bd3b64a8f
+tp-iss:OWLNamedIndividual_e2cea48d_7da1_41cf_9a6e_167bd3b64a8f rdf:type owl:NamedIndividual ,
+                                                                        owl:Thing ;
+                                                               rdfs:label "France"@en .
+
+
+###  http://homepages.laas.fr/nseydoux/ontologies/tp-iss#OWLNamedIndividual_e51e3974_f657_469e_b7a1_6ebaf4935b6a
+tp-iss:OWLNamedIndividual_e51e3974_f657_469e_b7a1_6ebaf4935b6a rdf:type owl:NamedIndividual ,
+                                                                        tp-iss:OWLClass_cc9a247b_da2d_4b1c_90e4_8f9e9e5cac7e ;
+                                                               rdfs:label "La ville Lumière"@fr .
+
+
+###  http://www.w3.org/2002/07/owl#OWLNamedIndividual_268609f4_8a6e_4076_a5c9_cfd144dde88e
+owl:OWLNamedIndividual_268609f4_8a6e_4076_a5c9_cfd144dde88e rdf:type owl:NamedIndividual ,
+                                                                     owl:OWLClass_5978d744_0b81_42e3_be10_3d1eebb096ce ;
+                                                            rdfs:label "Pression athmosphérique"@en .
+
+
+###  http://www.w3.org/2002/07/owl#OWLNamedIndividual_2a8dc066_4bd2_454c_a56b_11db9452e7dd
+owl:OWLNamedIndividual_2a8dc066_4bd2_454c_a56b_11db9452e7dd rdf:type owl:NamedIndividual ,
+                                                                     owl:OWLClass_5978d744_0b81_42e3_be10_3d1eebb096ce ;
+                                                            rdfs:label "Pluviométrie"@en .
+
+
+###  http://www.w3.org/2002/07/owl#OWLNamedIndividual_61229c23_41e4_4ec8_aa17_04ca3dcc42d2
+owl:OWLNamedIndividual_61229c23_41e4_4ec8_aa17_04ca3dcc42d2 rdf:type owl:NamedIndividual ,
+                                                                     ssn:SensingDevice ;
+                                                            ssn:onPlatform owl:OWLNamedIndividual_61237d59_bb40_44ac_bfe3_d9e45ffe04d6 ;
+                                                            rdfs:label "Sonde T1"@en .
+
+
+###  http://www.w3.org/2002/07/owl#OWLNamedIndividual_61237d59_bb40_44ac_bfe3_d9e45ffe04d6
+owl:OWLNamedIndividual_61237d59_bb40_44ac_bfe3_d9e45ffe04d6 rdf:type owl:NamedIndividual ,
+                                                                     ssn:Platform ;
+                                                            ssn:attachedSystem owl:OWLNamedIndividual_dbca17ec_b04b_47fd_a523_4698b3d40ba5 ;
+                                                            owl:OWLObjectProperty_c71b5265_ff81_4c91_b30d_a3e858340405 tp-iss:OWLNamedIndividual_40c87ce2_4767_4cb0_9cd7_1dda03352a38 ;
+                                                            rdfs:label "Platform1"@en .
+
+
+###  http://www.w3.org/2002/07/owl#OWLNamedIndividual_b544466b_449c_4af9_a082_33aa45fcda65
+owl:OWLNamedIndividual_b544466b_449c_4af9_a082_33aa45fcda65 rdf:type owl:NamedIndividual ,
+                                                                     owl:OWLClass_5978d744_0b81_42e3_be10_3d1eebb096ce ;
+                                                            rdfs:label "Hygrométrie"@en .
+
+
+###  http://www.w3.org/2002/07/owl#OWLNamedIndividual_babab508_1c69_472e_8f83_56a6d02a4b52
+owl:OWLNamedIndividual_babab508_1c69_472e_8f83_56a6d02a4b52 rdf:type owl:NamedIndividual ,
+                                                                     owl:OWLClass_5978d744_0b81_42e3_be10_3d1eebb096ce ;
+                                                            rdfs:label "Vitesse du vent"@en .
+
+
+###  http://www.w3.org/2002/07/owl#OWLNamedIndividual_dbca17ec_b04b_47fd_a523_4698b3d40ba5
+owl:OWLNamedIndividual_dbca17ec_b04b_47fd_a523_4698b3d40ba5 rdf:type owl:NamedIndividual ,
+                                                                     ssn:SensingDevice ;
+                                                            ssn:observes owl:OWLNamedIndividual_2a8dc066_4bd2_454c_a56b_11db9452e7dd ;
+                                                            rdfs:label "Sonde_P1"@en .
+
+
+###  Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi

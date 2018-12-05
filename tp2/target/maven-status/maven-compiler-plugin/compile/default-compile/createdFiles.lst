@@ -1,0 +1,11 @@
+semantic/view/TTLEndpoint.class
+semantic/model/ObservationEntity.class
+semantic/model/TimestampEntity.class
+semantic/controler/DoItYourselfControl.class
+semantic/model/IModelFunctions.class
+semantic/model/DoItYourselfModel.class
+semantic/view/JSONEndpoint.class
+semantic/model/IConvenienceInterface.class
+semantic/model/SemanticModel.class
+semantic/controler/Controler.class
+semantic/controler/IControlFunctions.class

@@ -1,0 +1,11 @@
+/home/noize/Traitement_des données sémantiques/tp-iss/src/main/java/semantic/controler/DoItYourselfControl.java
+/home/noize/Traitement_des données sémantiques/tp-iss/src/main/java/semantic/model/DoItYourselfModel.java
+/home/noize/Traitement_des données sémantiques/tp-iss/src/main/java/semantic/model/IModelFunctions.java
+/home/noize/Traitement_des données sémantiques/tp-iss/src/main/java/semantic/controler/IControlFunctions.java
+/home/noize/Traitement_des données sémantiques/tp-iss/src/main/java/semantic/controler/Controler.java
+/home/noize/Traitement_des données sémantiques/tp-iss/src/main/java/semantic/model/IConvenienceInterface.java
+/home/noize/Traitement_des données sémantiques/tp-iss/src/main/java/semantic/model/ObservationEntity.java
+/home/noize/Traitement_des données sémantiques/tp-iss/src/main/java/semantic/model/SemanticModel.java
+/home/noize/Traitement_des données sémantiques/tp-iss/src/main/java/semantic/model/TimestampEntity.java
+/home/noize/Traitement_des données sémantiques/tp-iss/src/main/java/semantic/view/TTLEndpoint.java
+/home/noize/Traitement_des données sémantiques/tp-iss/src/main/java/semantic/view/JSONEndpoint.java
